@@ -87,16 +87,32 @@ a{
     color: var(--bright-blue);
     font-weight: 900;
     text-decoration: underline;
+    transition: 0.3s;
+}
+.change:hover{
+    opacity: 70%;
+    text-decoration: none;
 }
 .payment{
     background-color: var(--bright-blue);
-    border-radius: 10px;
+    border-radius: 9px;
     padding: 10px;
     color: #fff;
+    font-weight: 700;
     box-shadow: 0 13px 10px hsla(245, 75%, 52%, 0.2);
+    transition: 0.3s;
+}
+.payment:hover{
+    opacity: 80%;
 }
 .cancel{
     padding-top: 10px;
+    font-weight: 900;
+    color: var(--desaturated-blue);
+    transition: 0.3s;
+}
+.cancel:hover{
+    color: var(--dark-blue);
 }
 
 
