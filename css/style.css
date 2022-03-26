@@ -88,6 +88,8 @@ a{
     font-weight: 900;
     text-decoration: underline;
     transition: 0.3s;
+    border: none;
+    outline: none;
 }
 .change:hover{
     opacity: 70%;
